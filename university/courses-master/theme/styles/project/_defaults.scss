@@ -1,0 +1,18 @@
+
+$unit: 24px;
+
+body {
+  font-family: $Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: $h5;
+  line-height: $unit;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $page-background;
+  color: $text;
+
+}
+
+

@@ -1,0 +1,54 @@
+
+.l-header {
+  $height: 2*$unit;
+  background: $primary;
+  color: $primary-contrast;
+  height: $height;
+  line-height: $height;
+  vertical-align: middle;
+  padding-left: 0.5 * $unit;
+  margin-bottom: 40px;
+
+  img {
+    height: 40px;
+  }
+
+  .title {
+    font-size: $h4;
+    margin-left: 50px;
+  }
+
+  .l-header-url {
+    margin-left: 35px;
+  }
+}
+
+.l-course-logo {
+  height:240px;
+  margin: 0 auto;
+  background-color: $page-background;
+  background-image: url(https://material.angularjs.org/latest/img/icons/angular-logo.svg);
+  background-repeat:  no-repeat;
+  background-position-x: center;
+  background-size: 65px;
+  background-position-y: center;
+}
+
+
+.l-course-title {
+  text-align: center;
+  font-size: $h5;
+}
+
+.l-lesson-title {
+  text-align: center;
+  font-size: $h6;
+}
+
+.l-course-content {
+  margin: 47px auto;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 50px;
+  min-height: 200px;
+}
